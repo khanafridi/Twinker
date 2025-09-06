@@ -9,7 +9,7 @@ class Std():
         self.height = self.root.winfo_screenheight()
         self.root.geometry(f"{self.width}x{self.height}+0+0")
 
-        title = tk.Label(self.root, text="Student Management System", bd=4, bg="blue", relief='raised', font=('Arial', 50, 'bold'))
+        title = tk.Label(self.root, text="Student Record Management System", bd=4, bg="blue", relief='raised', font=('Arial', 50, 'bold'))
         title.pack(side="top", fill="x")
 
         optframe = tk.Frame(self.root, bd=5, relief="ridge", bg=self.color(173,216,230))
